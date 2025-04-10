@@ -68,6 +68,8 @@ button:focus-visible {
 }
 
 .chargement {
+  font-size: 2em;
   justify-content: center;
+  align-items: center;
   text-align: center;
 }
