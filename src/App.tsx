@@ -23,10 +23,11 @@ function App() {
         <div className="container">
           <div className="row">
             {pokemons.map(({id, name, picture, created}) =>(
-              <div className="col s6 m4" key={id}>
+              // s12 signifie que sur les petits écrans (s: small), signifie qu'il va afficher 01 pokémon sur l'écran et sur les écrans moyens m-6 (m: medium), il va afficher 02 pokémons et chaque pokémon va prendre la moitié de l'écran: 1/2.
+              <div className="col s12 m6" key={id}>
                 <div className="card horizontal">
                   <div className="card-image">
-                    <img src={picture} alt={name} />
+                    <img className="img" src={picture} alt={name} />
                   </div>
                   <div className="card-stacked">
                     <div className="card-content">

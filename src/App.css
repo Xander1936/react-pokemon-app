@@ -42,5 +42,10 @@
 }
 
 div.card.horizontal {
-  height: 300px;
+  height: 270px;
+}
+
+.img {
+  height: 100%;
+  width: 100%;
 }
