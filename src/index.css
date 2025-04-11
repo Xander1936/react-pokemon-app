@@ -28,6 +28,9 @@ body {
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
 h1 {
@@ -69,6 +72,12 @@ button:focus-visible {
 
 .chargement {
   font-size: 2em;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.div#root {
   justify-content: center;
   align-items: center;
   text-align: center;
