@@ -19,7 +19,7 @@ const PokemonList: FunctionComponent = () => {
                 <div className="row">
                     {pokemons.map(pokemon => (
                         // On utilise le composant PokemonCard en lui passant une prop representant le pokémon à afficher.
-                        <PokemonCard key={pokemon.id} pokemon={pokemon} borderColor="red" />
+                        <PokemonCard key={pokemon.id} pokemon={pokemon} />
                     ))}
                 </div>
             </div>
